@@ -31,8 +31,8 @@ const DEFAULT_IMAGES = [
 class HomeIndex extends React.Component {
 
     render() {
-        const siteTitle = "Gatsby Starter - Strata"
-        const siteDescription = "Site description"
+        const siteTitle = "Miro Kačar"
+        const siteDescription = "slikar"
 
         return (
             <Layout>
@@ -80,10 +80,10 @@ class HomeIndex extends React.Component {
                                         <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" required /></div>
                                         <div className="12u"><textarea name="message" id="message" placeholder="Sporočilo" rows="4" required></textarea></div>
                                     </div>
-                                </form>
                                 <ul className="actions">
                                     <li><input type="submit" value="Pošlji sporočilo" /></li>
                                 </ul>
+                                </form>
                             </div>
                             <div className="4u 12u$(small)">
                                 <ul className="labeled-icons">
