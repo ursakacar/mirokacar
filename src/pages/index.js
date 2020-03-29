@@ -73,7 +73,7 @@ class HomeIndex extends React.Component {
                         <p>Blabla, lahko se dogovorimo za ogled galerije, delavnice, slikarsko solo, itd itd.</p>
                         <div className="row">
                             <div className="8u 12u$(small)">
-                                <form name="contact" method="post" data-netlify="true" netlify-honeypot="bot-field">
+                                <form name="contact" method="post" data-netlify="true" netlify-honeypot="bot-field" action="/contact-success" >
                                     <div className="row uniform 50%">
                                         <input type="hidden" name="bot-field" />
                                         <input type="hidden" name="form-name" value="contact" />
@@ -81,7 +81,7 @@ class HomeIndex extends React.Component {
                                         <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" required /></div>
                                         <div className="12u"><textarea name="message" id="message" placeholder="Sporočilo" rows="4" required></textarea></div>
                                     </div>
-                                <ul className="actions">
+                                <ul className="actions custom-button-margin">
                                     <li><input type="submit" value="Pošlji sporočilo" /></li>
                                 </ul>
                                 </form>
@@ -99,7 +99,7 @@ class HomeIndex extends React.Component {
                                     </li>
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                        <a href="#">miro.kacar@gmail.com</a>
+                                        <a href="mailto:miro.kacar@gmail.com" target="_blank" >miro.kacar@gmail.com</a>
                                     </li>
                                 </ul>
                             </div>
