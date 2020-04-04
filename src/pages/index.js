@@ -36,7 +36,7 @@ import full13 from '../assets/images/first-page/soncnice.jpg'
 import full14 from '../assets/images/first-page/sopek.jpg'
 
 const DEFAULT_IMAGES = [
-    { id: '14', source: full14, thumbnail: thumb14, caption: 'Rdeče vrnice', description: '45x60 cm, olje na platno'},
+    { id: '14', source: full14, thumbnail: thumb14, caption: 'Rdeče vrtnice', description: '45x60 cm, olje na platno'},
     { id: '9', source: full09, thumbnail: thumb09, caption: 'Ob jezeru', description: '55x80 cm, olje na platno'},
 
     { id: '2', source: full02, thumbnail: thumb02, caption: 'Žitno polje', description: '120x90 cm, olje na platno'},
@@ -51,11 +51,11 @@ const DEFAULT_IMAGES = [
     { id: '7', source: full07, thumbnail: thumb07, caption: 'Kruh', description: '100x100 cm, olje na platno'},
     { id: '6', source: full06, thumbnail: thumb06, caption: 'Gnezdo', description: '100x100 cm, olje na platno'},
 
-    { id: '4', source: full04, thumbnail: thumb04, caption: 'Drvarji', description: '95x100 cm, olje na platno'},
-    { id: '1', source: full01, thumbnail: thumb01, caption: 'Bela vrtnica', description: '90x70 cm, olje na platno'},
-
     { id: '11', source: full11, thumbnail: thumb11, caption: 'Stražar žitnih polj', description: '100x100 cm, olje na platno'},
     { id: '3', source: full03, thumbnail: thumb03, caption: 'Vinograd', description: '65x50 cm, olje na platno'},
+
+    { id: '4', source: full04, thumbnail: thumb04, caption: 'Drvarji', description: '95x100 cm, olje na platno'},
+    { id: '1', source: full01, thumbnail: thumb01, caption: 'Bela vrtnica', description: '90x70 cm, olje na platno'},
 
 ];
 
@@ -76,7 +76,7 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>O meni/kratka predstavitev/lahko tudi kaksen drug naslov.</h2>
+                            <h2>Predstavitev</h2>
                         </header>
                         <p>Text... Rabim text, kratko biografijo, info, pac predstavitveno besedilo
 
@@ -88,7 +88,7 @@ class HomeIndex extends React.Component {
                     </section>
 
                     <section id="two">
-                        <h2>Nekaj mojih del</h2>
+                        <h2>Galerija</h2>
 
                         <Gallery images={DEFAULT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
                             source,

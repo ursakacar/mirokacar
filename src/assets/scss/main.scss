@@ -113,7 +113,7 @@
 	}
 
 	h3 {
-		font-size: 1.25em;
+		font-size: 1.5em;
 		line-height: 1.5em;
 	}
 
@@ -883,12 +883,12 @@
 		}
 
 		h3 {
-			font-size: 1em;
+			font-size: 1.3em;
 			margin: 0 0 (_size(element-margin) * 0.25) 0;
 		}
 
 		p {
-			font-size: 0.8em;
+			font-size: 1em;
 			line-height: 1.5em;
 			margin: 0;
 		}
@@ -910,7 +910,7 @@
 		color: _palette(accent2, fg);
 		height: 100%;
 		left: 0;
-		padding: ($size-header-pad * 2) $size-header-pad;
+		padding: ($size-header-pad * 2) $size-header-pad ($size-header-pad * 0.7) $size-header-pad;
 		position: fixed;
 		text-align: right;
 		top: 0;
@@ -936,14 +936,14 @@
 
 		h1 {
 			color: _palette(accent2, fg);
-			font-size: 1.35em;
+			font-size: 2.35em;
 			line-height: 1.75em;
 			margin: 0;
 		}
 
 		.image.avatar {
 			margin: 0 0 (_size(element-margin) * 0.5) 0;
-			width: 6.25em;
+			width: 10em;
 		}
 	}
 
@@ -1342,7 +1342,7 @@
 			}
 
 			h3 {
-				font-size: 1em;
+				font-size: 1.7em;
 			}
 
 		/* Section/Article */
@@ -1381,7 +1381,7 @@
 				padding: ($size-header-pad * 1.5) $size-header-pad;
 
 				h1 {
-					font-size: 1.35em;
+					font-size: 3.8em;
 				}
 			}
 
@@ -1466,7 +1466,7 @@
 		/* Header */
 
 			#header {
-				padding: ($size-header-pad * 3) $size-header-pad;
+				padding: ($size-header-pad * 3) $size-header-pad ($size-header-pad * 1) ($size-header-pad * 3);
 
 				h1 {
 					br {
@@ -1479,6 +1479,7 @@
 
 			#footer {
 				.copyright {
+					padding: ($size-header-pad * 3) 0 0 0;
 					li {
 						border-left-width: 0;
 						display: block;
@@ -1502,7 +1503,7 @@
 	}
 }
 .custom-button-margin {
-	margin-top: 32px;
+	margin-top: 1em !important;
 }
 .custom-hidden {
 	display: none;
