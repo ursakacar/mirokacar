@@ -1259,7 +1259,7 @@
 				&.icons {
 					li {
 						.icon {
-							font-size: 1.25em;
+							font-size: 1.4em;
 						}
 					}
 				}
@@ -1338,7 +1338,7 @@
 			}
 
 			h2 {
-				font-size: 1.2em;
+				font-size: 1.85em;
 			}
 
 			h3 {
@@ -1356,7 +1356,7 @@
 			header {
 				&.major {
 					h2 {
-						font-size: 1.35em;
+						font-size: 1.85em;
 					}
 				}
 			}
@@ -1378,8 +1378,7 @@
 		/* Header */
 
 			#header {
-				padding: ($size-header-pad * 1.5) $size-header-pad;
-
+				padding: ($size-header-pad * 5.5) $size-header-pad ($size-header-pad * 0.1) $size-header-pad;
 				h1 {
 					font-size: 3.8em;
 				}
@@ -1388,7 +1387,7 @@
 		/* Footer */
 
 			#footer {
-				padding: ($size-header-pad * 1.5) $size-header-pad;
+				padding: ($size-header-pad * 5.5) $size-header-pad ($size-header-pad * 0.1) $size-header-pad;
 			}
 
 		/* Main */
