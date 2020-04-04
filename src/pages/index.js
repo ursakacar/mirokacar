@@ -6,56 +6,56 @@ import Layout from '../components/layout'
 import Gallery from '../components/Gallery'
 
 import thumb01 from '../assets/images/first-page/thumb-bela-vrtnica.jpg'
-import thumb02 from '../assets/images/first-page/thumb-zitno-polje.png'
-import thumb03 from '../assets/images/first-page/thumb-vinograd.png'
+import thumb02 from '../assets/images/first-page/thumb-zitno-polje.jpg'
+import thumb03 from '../assets/images/first-page/thumb-vinograd.jpg'
 import thumb04 from '../assets/images/first-page/thumb-drvarji.jpg'
-import thumb05 from '../assets/images/first-page/thumb-galeb.png'
+import thumb05 from '../assets/images/first-page/thumb-galeb.jpg'
 import thumb06 from '../assets/images/first-page/thumb-gnezdo.jpg'
-import thumb07 from '../assets/images/first-page/thumb-kruh.png'
-import thumb08 from '../assets/images/first-page/thumb-moc.png'
+import thumb07 from '../assets/images/first-page/thumb-kruh.jpg'
+import thumb08 from '../assets/images/first-page/thumb-moc.jpg'
 import thumb09 from '../assets/images/first-page/thumb-ob-sori.jpg'
-import thumb10 from '../assets/images/first-page/thumb-jesenski-macesni.png'
-import thumb11 from '../assets/images/first-page/thumb-strazar-zitnih-polj.png'
-import thumb12 from '../assets/images/first-page/thumb-snezi.png'
-import thumb13 from '../assets/images/first-page/thumb-soncnice.png'
-import thumb14 from '../assets/images/first-page/thumb-sopek.png'
+import thumb10 from '../assets/images/first-page/thumb-jesenski-macesni.jpg'
+import thumb11 from '../assets/images/first-page/thumb-strazar-zitnih-polj.jpg'
+import thumb12 from '../assets/images/first-page/thumb-snezi.jpg'
+import thumb13 from '../assets/images/first-page/thumb-soncnice.jpg'
+import thumb14 from '../assets/images/first-page/thumb-sopek.jpg'
 
 import full01 from '../assets/images/first-page/bela-vrtnica.jpg'
-import full02 from '../assets/images/first-page/zitno-polje.png'
-import full03 from '../assets/images/first-page/vinograd.png'
+import full02 from '../assets/images/first-page/zitno-polje.jpg'
+import full03 from '../assets/images/first-page/vinograd.jpg'
 import full04 from '../assets/images/first-page/drvarji.jpg'
-import full05 from '../assets/images/first-page/galeb.png'
+import full05 from '../assets/images/first-page/galeb.jpg'
 import full06 from '../assets/images/first-page/gnezdo.jpg'
-import full07 from '../assets/images/first-page/kruh.png'
-import full08 from '../assets/images/first-page/moc.png'
+import full07 from '../assets/images/first-page/kruh.jpg'
+import full08 from '../assets/images/first-page/moc.jpg'
 import full09 from '../assets/images/first-page/ob-sori.jpg'
-import full10 from '../assets/images/first-page/jesenski-macesni.png'
-import full11 from '../assets/images/first-page/strazar-zitnih-polj.png'
-import full12 from '../assets/images/first-page/snezi.png'
-import full13 from '../assets/images/first-page/soncnice.png'
-import full14 from '../assets/images/first-page/sopek.png'
+import full10 from '../assets/images/first-page/jesenski-macesni.jpg'
+import full11 from '../assets/images/first-page/strazar-zitnih-polj.jpg'
+import full12 from '../assets/images/first-page/snezi.jpg'
+import full13 from '../assets/images/first-page/soncnice.jpg'
+import full14 from '../assets/images/first-page/sopek.jpg'
 
 const DEFAULT_IMAGES = [
-    { id: '14', source: full14, thumbnail: thumb14, caption: 'Rdeče vrnice', description: '45x60 cm, olje na platno, prodano'},
-    { id: '9', source: full09, thumbnail: thumb09, caption: 'Ob jezeru', description: '55x80 cm, olje na platno, prodano'},
+    { id: '14', source: full14, thumbnail: thumb14, caption: 'Rdeče vrnice', description: '45x60 cm, olje na platno'},
+    { id: '9', source: full09, thumbnail: thumb09, caption: 'Ob jezeru', description: '55x80 cm, olje na platno'},
 
-    { id: '2', source: full02, thumbnail: thumb02, caption: 'Žitno polje', description: '120x90 cm, olje na platno, prodano'},
-    { id: '5', source: full05, thumbnail: thumb05, caption: 'Galeb', description: '120x100 cm, olje na platno, prodano'},
+    { id: '2', source: full02, thumbnail: thumb02, caption: 'Žitno polje', description: '120x90 cm, olje na platno'},
+    { id: '5', source: full05, thumbnail: thumb05, caption: 'Galeb', description: '120x100 cm, olje na platno'},
 
-    { id: '10', source: full10, thumbnail: thumb10, caption: 'Jesen', description: '100x80 cm, olje na platno, prodanoo'},
-    { id: '12', source: full12, thumbnail: thumb12, caption: 'Sneži', description: '55x80 cm, olje na platno, prodano'},
+    { id: '10', source: full10, thumbnail: thumb10, caption: 'Jesen', description: '100x80 cm, olje na platnoo'},
+    { id: '12', source: full12, thumbnail: thumb12, caption: 'Sneži', description: '55x80 cm, olje na platno'},
 
-    { id: '13', source: full13, thumbnail: thumb13, caption: 'Sončnice v modri vazi', description: '50x40 cm, olje na platno, prodano'},
-    { id: '8', source: full08, thumbnail: thumb08, caption: 'Moč', description: '100x100 cm, olje na platno, prodano'},
+    { id: '13', source: full13, thumbnail: thumb13, caption: 'Sončnice v modri vazi', description: '50x40 cm, olje na platno'},
+    { id: '8', source: full08, thumbnail: thumb08, caption: 'Moč', description: '100x100 cm, olje na platno'},
 
-    { id: '7', source: full07, thumbnail: thumb07, caption: 'Kruh', description: '100x100 cm, olje na platno, prodano'},
-    { id: '6', source: full06, thumbnail: thumb06, caption: 'Gnezdo', description: '100x100 cm, olje na platno, prodano'},
+    { id: '7', source: full07, thumbnail: thumb07, caption: 'Kruh', description: '100x100 cm, olje na platno'},
+    { id: '6', source: full06, thumbnail: thumb06, caption: 'Gnezdo', description: '100x100 cm, olje na platno'},
 
-    { id: '4', source: full04, thumbnail: thumb04, caption: 'Drvarji', description: '95x100 cm, olje na platno, prodano'},
-    { id: '1', source: full01, thumbnail: thumb01, caption: 'Bela vrtnica', description: '90x70 cm, olje na platno, prodano'},
+    { id: '4', source: full04, thumbnail: thumb04, caption: 'Drvarji', description: '95x100 cm, olje na platno'},
+    { id: '1', source: full01, thumbnail: thumb01, caption: 'Bela vrtnica', description: '90x70 cm, olje na platno'},
 
-    { id: '11', source: full11, thumbnail: thumb11, caption: 'Stražar žitnih polj', description: '100x100 cm, olje na platno, prodano'},
-    { id: '3', source: full03, thumbnail: thumb03, caption: 'Vinograd', description: '65x50 cm, olje na platno, prodano'},
+    { id: '11', source: full11, thumbnail: thumb11, caption: 'Stražar žitnih polj', description: '100x100 cm, olje na platno'},
+    { id: '3', source: full03, thumbnail: thumb03, caption: 'Vinograd', description: '65x50 cm, olje na platno'},
 
 ];
 
@@ -82,13 +82,6 @@ class HomeIndex extends React.Component {
 
                         Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
 
-                        <h2>TODO (URSA) </h2>
-                        <ul className="major">
-                            <li>styling: text color (everything is kinda bland right now), avatar size, link colors</li>
-                            <li>implement gallery/full portfolio</li>
-                            <li>implement biography page</li>
-                            <li>figure out how current gallery is implemeted and fix the stupid shit</li>
-                        </ul>
                         <ul className="actions">
                             <li><a href="/biography" className="button custom-hidden">Biografija</a></li>
                         </ul>
