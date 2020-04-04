@@ -42,7 +42,7 @@ const DEFAULT_IMAGES = [
     { id: '2', source: full02, thumbnail: thumb02, caption: 'Žitno polje', description: '120x90 cm, olje na platno'},
     { id: '5', source: full05, thumbnail: thumb05, caption: 'Galeb', description: '120x100 cm, olje na platno'},
 
-    { id: '10', source: full10, thumbnail: thumb10, caption: 'Jesen', description: '100x80 cm, olje na platnoo'},
+    { id: '10', source: full10, thumbnail: thumb10, caption: 'Jesen', description: '100x80 cm, olje na platno'},
     { id: '12', source: full12, thumbnail: thumb12, caption: 'Sneži', description: '55x80 cm, olje na platno'},
 
     { id: '13', source: full13, thumbnail: thumb13, caption: 'Sončnice v modri vazi', description: '50x40 cm, olje na platno'},
