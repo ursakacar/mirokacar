@@ -1397,21 +1397,7 @@
 			header {
 				&.major {
 					h2 {
-						font-size: 1.85em;
-					}
-				}
-			}
-
-		/* List */
-
-			ul {
-				&.labeled-icons {
-					li {
-						padding-left: 2em;
-
-						h3 {
-							line-height: 1.75em;
-						}
+						font-size: em;
 					}
 				}
 			}
@@ -1421,7 +1407,10 @@
 			#header {
 				padding: ($size-header-pad * 5.5) $size-header-pad ($size-header-pad * 0.1) $size-header-pad;
 				h1 {
-					font-size: 3em;
+					font-size: 2em;
+				}
+				h3 {
+					font-size: 1.3em;
 				}
 			}
 
@@ -1429,7 +1418,13 @@
 
 			#footer {
 				padding: ($size-header-pad * 5.5) $size-header-pad ($size-header-pad * 0.1) $size-header-pad;
+				.icons {
+					li {
+						font-size: 1em;
+					}
+				}
 			}
+
 
 		/* Main */
 
