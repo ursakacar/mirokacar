@@ -950,9 +950,6 @@
 			a {
 				color: _palette(accent2, fg-light);
 			}
-			li {
-				font-size: 1.8em;
-			}
 		}
 
 		.copyright {
@@ -1186,6 +1183,11 @@
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+			.icons{
+				li {
+					font-size: 1.7em;
+				}
+			}
 
 	}
 
@@ -1196,18 +1198,38 @@
 		$size-header-width: 30%;
 		$size-header-pad: 3em;
 
+		h2 {
+			font-size: 1.4em;
+		}
+
+	.work-item {
+		h3 {
+			font-size: 1.1em;
+		}
+
+		p {
+			font-size: 0.9em;
+		}
+	}
 		/* Header */
 
 			#header {
 				padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
 				width: $size-header-width;
 
+				.image.avatar {
+					width: 9em;
+				}
+
 				h1 {
-					font-size: 1.25em;
+					font-size: 1.5em;
 
 					br {
 						display: none;
 					}
+				}
+				h3 {
+					font-size: 1em;
 				}
 			}
 
@@ -1221,9 +1243,20 @@
 						line-height: 2.25em;
 						margin-left: 0;
 						padding-left: 0;
+						font-size: 0.8em;
 					}
 				}
 			}
+				.icons {
+					margin: (_size(element-margin) * 0.5) 0 0 0;
+
+					a {
+						color: _palette(accent2, fg-light);
+					}
+					li {
+						font-size: 1.3em;
+					}
+				}
 
 		/* Main */
 
@@ -1250,17 +1283,9 @@
 				}
 			}
 
-		/* List */
-
-			ul {
-				&.icons {
-					li {
-						.icon {
-							font-size: 1.6em;
-						}
-					}
-				}
-			}
+		h2 {
+			font-size: 1.8em;
+		}
 
 		/* Header */
 
@@ -1269,7 +1294,7 @@
 				background-position:	top left,	center center;
 				background-size:		auto,		cover;
 				left: auto;
-				padding: ($size-header-pad * 1.5) $size-header-pad;
+				padding: ($size-header-pad * 1.5) $size-header-pad 0 $size-header-pad;
 				position: relative;
 				text-align: center;
 				top: auto;
@@ -1290,17 +1315,24 @@
 			#footer {
 				bottom: auto;
 				left: auto;
-				padding: $size-header-pad $size-header-pad ($size-header-pad * 1.5) $size-header-pad;
+				padding: $size-header-pad $size-header-pad ($size-header-pad * 0.2) $size-header-pad;
 				position: relative;
 				text-align: center;
 				width: 100%;
 
 				.icons {
 					margin: 0 0 (_size(element-margin) * 0.5) 0;
+
+					a {
+						color: _palette(accent2, fg-light);
+					}
+					li {
+						font-size: 1.3em;
+					}
 				}
 
 				.copyright {
-					margin: 0 0 (_size(element-margin) * 0.5) 0;
+					margin: 0 0 (_size(element-margin) * 0.2) 0;
 
 					li {
 						border-left-width: 1px;
