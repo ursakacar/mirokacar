@@ -74,19 +74,6 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
 
-                    <section id="one">
-                        <header className="major">
-                            <h2>Predstavitev</h2>
-                        </header>
-                        <p>Text... Rabim text, kratko biografijo, info, pac predstavitveno besedilo
-
-                        Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
-
-                        <ul className="actions">
-                            <li><a href="/biography" className="button custom-hidden">Biografija</a></li>
-                        </ul>
-                    </section>
-
                     <section id="two">
                         <h2>Galerija</h2>
 
@@ -104,7 +91,7 @@ class HomeIndex extends React.Component {
 
                     <section id="three">
                         <h2>Kontakt</h2>
-                        <p>Tukaj rabim text glede ponudbe: "Lahko se dogovorimo za ogled galerije, delavnice, slikarsko solo, slike po narocilu, in tako dalje....</p>
+                        <p class="custom-hidden">Tukaj rabim text glede ponudbe: "Lahko se dogovorimo za ogled galerije, delavnice, slikarsko solo, slike po narocilu, in tako dalje....</p>
                         <div className="row">
                             <div className="8u 12u$(small)">
                                 <form name="contact" method="post" data-netlify="true" netlify-honeypot="bot-field" action="/contact-success" >

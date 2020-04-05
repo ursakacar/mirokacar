@@ -31,13 +31,16 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
 
-                    <section id="one">
+                    <section id="one" class="custom-hidden">
                         <header className="major">
-                            <h2>Biografija</h2>
+                            <h2>Predstavitev</h2>
                         </header>
-                        <p>Text... Rabim text, kratko</p>
+                        <p>TOLE DEJ NAZAJ NA INDEX cel ta section Text... Rabim text, kratko biografijo, info, pac predstavitveno besedilo
+
+                        Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
+
                         <ul className="actions">
-                            <li><a href="#" className="button">Biografija</a></li>
+                            <li><a href="/biography" className="button custom-hidden">Biografija</a></li>
                         </ul>
                     </section>
 
