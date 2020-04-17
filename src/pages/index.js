@@ -81,7 +81,7 @@ class HomeIndex extends React.Component {
                         </h2>
                       </header>
                       <p>
-                      Odraščal sem v Sorici, prelepi majhni vasici, obdani z macesni, kjer živim in ustvarjam še danes. Mnogo let je tega, spomini komaj sežejo v čas otroštva, ko sem občudoval slike in poslikave Ivana Groharja v domači cerkvi. Prva znanja mi je dala šele osnovna šola, kasneje pa sem stopil na pot resnega izobraževanja. Po petletnem pedagoškem študiju sem začel poučevati, zraven pa neprestano iskal nova znanja in spoznanja. Pri tem mi je bil vzornik impresionist Ivan Grohar, čigar slikarsko maniro sem prikrojil na avtorsko samosvoj način. </p>
+                      Odraščal sem v Sorici, prelepi majhni vasici, obdani z macesni, kjer živim in ustvarjam še danes. Mnogo let je tega, spomini komaj sežejo v čas otroštva, ko sem občudoval slike in poslikave Ivana Groharja v domači cerkvi. Prva znanja mi je dala šele osnovna šola, kasneje pa sem stopil na pot resnega izobraževanja. Po petletnem pedagoškem študiju sem začel poučevati, zraven pa neprestano iskal nova znanja in spoznanja. Pri tem mi je bil vzornik impresionist Ivan Grohar, čigar slikarsko maniro sem prikrojil na avtorsko samosvoj način.</p>
 
                       <h4> Sejalec, ki ga je naslikal Ivan Grohar, odhaja, kaže nam hrbet. Jaz sem svojega obrnil, vrača se proti nam v želji, da prinese  vsaj nekaj, že dolgo pozabljenih vrednot.
                       </h4><p></p>
