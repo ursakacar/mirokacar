@@ -74,6 +74,26 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
 
+                    <section id="one">
+                      <header className="major">
+                        <h2>
+                          O meni
+                        </h2>
+                      </header>
+                      <p>
+                      Odraščal sem v Sorici, prelepi majhni vasici, obdani z macesni, kjer živim in ustvarjam še danes. Mnogo let je tega, spomini komaj sežejo v čas otroštva, ko sem občudoval slike in poslikave Ivana Groharja v domači cerkvi. Prva znanja mi je dala šele osnovna šola, kasneje pa sem stopil na pot resnega izobraževanja. Po petletnem pedagoškem študiju sem začel poučevati, zraven pa neprestano iskal nova znanja in spoznanja. Pri tem mi je bil vzornik impresionist Ivan Grohar, čigar slikarsko maniro sem prikrojil na avtorsko samosvoj način. </p>
+
+                      <h4> Sejalec, ki ga je naslikal Ivan Grohar, odhaja, kaže nam hrbet. Jaz sem svojega obrnil, vrača se proti nam v želji, da prinese  vsaj nekaj, že dolgo pozabljenih vrednot.
+                      </h4><p></p>
+
+                       <p> Začel sem razstavljati po vseh večjih slovenskih mestih in se udeleževati likovnih kolonij. Imel sem preko 50 samostojnih ali skupinskih razstav, prejel sem številna priznanja in nagrade. Piko na i mojemu izobraževanju pa je dala mednarodna Šola za risanje in slikanje v Ljubljani, kjer sem nedolgo tega opravil diplomski in magistrski izpit. </p>
+
+                      <ul className="actions">
+                        <li>
+                          <a href="/biography" className="button custom-hidden">Biografija</a></li>
+                      </ul>
+                    </section>
+
                     <section id="two">
                         <h2>Galerija</h2>
 
@@ -90,8 +110,19 @@ class HomeIndex extends React.Component {
                     </section>
 
                     <section id="three">
+                        <h2>Kritike</h2>
+                        <h4>Dr. Cene Avguštin</h4>
+                        <p>Dela Mira Kačarja predstavljajo pravo izjemo, ne samo v slovenskem prostoru,  tudi širše. Njegovi motivi so bolj kot z razumom napolnjeni s čustvi in notranjo povezanostjo, zaviti v plašč toplo občutenih barv. V motivni svet, ki ga oblikuje, vnaša svojo misel, svoje razpoloženje in druge dejavnike, ki dani slikarski motiv bogatijo in dvigajo na raven umetniškega dela. </p>
+                        <h4>Likovna kritičarka Anamarija Štibilj Šajn</h4>
+                        <p>Ustvarjalnost Mira Kačarja predstavlja poklon slikarstvu, ki še vedno utripa v v duhu impresionističnih likovnih izkušenj, hkrati pa mu omogoča, da v njem živi svoje likovno življenje in vzpostavlja svoje sporočilo. V njegovih delih se manifestira izrazna moč zgoščene likovne vsebine, ki jo umetnik doživlja tudi kot močan duhovni naboj.</p>
+                        <h4>Prof. Andrej Pavlovec</h4>
+                        <p>Kačarjeve slike dopuščajo gledalcu dialog, da se dokoplje do bistva slikarske snovi, ki se skriva pod plastjo barv, ki ustvarja videz razblinjajoče se resničnosti. Med barvo in črto sklene kompromis, ki ga razumemo kot posledico umetnikovih izkušenj. Mehkoba kontur in študiozno tehtanje kontrastov, daje slikam naglašeno poetičnost.</p>
+                    </section>
+
+                    <section id="four">
                         <h2>Kontakt</h2>
-                        <p class="custom-hidden">Tukaj rabim text glede ponudbe: "Lahko se dogovorimo za ogled galerije, delavnice, slikarsko solo, slike po narocilu, in tako dalje....</p>
+                        <p>Povabim vas v Sorico na ogled mojih impresionistično obarvanih slik. Imam svoj atelje in malo galerijo, katerih vrata so odprta za ogled, nasvet, kratko delavnico slikanja ali pogovor o vaših željah. </p>
+                        <p>Popeljem vas tudi na ogled Groharjeve rojstne hiše v Sorici, kjer so razstavljeni trije originali in enajst kopij njegovih najboljših del.</p>
                         <div className="row">
                             <div className="8u 12u$(small)">
                                 <form name="contact" method="post" data-netlify="true" netlify-honeypot="bot-field" action="/contact-success" >
@@ -115,12 +146,16 @@ class HomeIndex extends React.Component {
                                         Slovenija
                                     </li>
                                     <li>
+                                        <h3 className="icon fa-phone"><span className="label">Telefon</span></h3>
+                                        +386 45 197 196
+                                    </li>
+                                    <li>
                                         <h3 className="icon fa-mobile"><span className="label">Telefon</span></h3>
                                         +386 31 433 275
                                     </li>
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                        <a href="mailto:miro.kacar@gmail.com" target="_blank" >miro.kacar@gmail.com</a>
+                                        <a href="mailto:miro.kacar@gmail.com" target="_blank" >kacar.miro@gmail.com</a>
                                     </li>
                                 </ul>
                             </div>
