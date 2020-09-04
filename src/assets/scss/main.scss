@@ -430,6 +430,7 @@
 		@include icon;
 		border-bottom: none;
 		position: relative;
+		margin: 0;
 
 		> .label {
 			display: none;
@@ -586,16 +587,11 @@
 			padding-left: 0;
 
 			li {
-				display: inline-block;
-				padding: 0 1em 0 0;
-
-				&:last-child {
-					padding-right: 0;
-				}
+				padding: 0 1em 1rem 0;
 
 				.icon {
 					&:before {
-						font-size: 1.5em;
+						font-size: 1.4em;
 					}
 				}
 			}
@@ -982,6 +978,7 @@
 		font-size: 0.9rem;
 		li {
 			border-left-width: 0;
+			display: inline-block;
 			line-height: 2.25em;
 			margin-left: 0;
 			padding-right: 0.5rem;
@@ -1173,7 +1170,7 @@
 			}
 			.icons{
 				li {
-					font-size: 1.7em;
+					font-size: 1.4em;
 				}
 			}
 
@@ -1232,7 +1229,7 @@
 						color: _palette(accent2, fg-light);
 					}
 					li {
-						font-size: 1.3em;
+						font-size: 1em;
 					}
 				}
 
@@ -1244,15 +1241,6 @@
 				padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
 				width: calc(100% - #{$size-header-width});
 			}
-
-		/* copyright section*/	
-
-			.copyright {
-				li {
-					display: inline-block;
-				}
-			}
-
 	}
 
 /* Medium */
@@ -1313,7 +1301,7 @@
 						color: _palette(accent2, fg-light);
 					}
 					li {
-						font-size: 1.3em;
+						font-size: 1em;
 					}
 				}
 			}
@@ -1363,7 +1351,7 @@
 				&.icons {
 					li {
 						.icon {
-							font-size: 1.3em;
+							font-size: 1em;
 						}
 					}
 				}
