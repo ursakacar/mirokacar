@@ -267,6 +267,9 @@ class HomeIndex extends React.Component {
               so razstavljeni trije originali in enajst kopij njegovih
               najboljših del.
             </p>
+            <p>
+              Kontaktirate me lahko preko telefona, emaila, ali pa mi preko spodnjega obrazca pustite sporočilo.
+            </p>
             <div className="row">
               <div className="8u 12u$(small)">
                 <form
@@ -329,19 +332,15 @@ class HomeIndex extends React.Component {
                       <span className="label">Telefon</span>
                     </h3>
                     +386 45 197 196
-                  </li>
-                  <li>
-                    <h3 className="icon fa-mobile">
-                      <span className="label">Telefon</span>
-                    </h3>
+                    <br></br>
                     +386 31 433 275
                   </li>
                   <li>
-                    <h3 className="icon fa-envelope-o">
+                    <h3 className="icon fa-envelope">
                       <span className="label">Email</span>
                     </h3>
                     <a href="mailto:miro.kacar@gmail.com" target="_blank">
-                      kacar.miro@gmail.com
+                      slikar@mirokacar.si
                     </a>
                   </li>
                 </ul>

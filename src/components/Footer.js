@@ -16,24 +16,18 @@ class Footer extends React.Component {
               </a>
             </li> */}
             <li>
-              <h3 className="icon fa-envelope-o">
-                <a
-                  href="mailto:kacar.miro@gmail.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                ></a>
-              </h3>
-              kacar.miro@gmail.com
+              <h3 className="icon fa-phone"></h3>
+              +386 31 433 275
+            </li>
+            <li>
+              <h3 className="icon fa-envelope"></h3>
+              slikar@mirokacar.si
             </li>
             <li>
               <h3 className="icon fa-home"></h3>
               Zgornja Sorica
               <br />
               Slovenija
-            </li>
-            <li>
-              <h3 className="icon fa-mobile"></h3>
-              +386 31 433 275
             </li>
           </ul>
         </div>
