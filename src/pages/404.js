@@ -1,13 +1,12 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import Gallery from '../components/Gallery'
 
 class NotFoundPage extends React.Component {
 
     render() {
         const siteTitle = "Miro Kačar"
-        const siteDescription = "slikar"
+        const siteDescription = "strani ni bilo mogoče najti"
 
         return (
             <Layout>

@@ -1,14 +1,17 @@
 {
   "name": "mirokacar",
+  "private": true,
   "description": "homepage for painter Miro Kacar",
   "version": "1.0.0",
-  "author": "URsa Kacar",
+  "author": "Ursa Kacar",
   "dependencies": {
     "gatsby": "^2.19.32",
     "gatsby-plugin-manifest": "^2.2.44",
     "gatsby-plugin-offline": "^3.0.37",
     "gatsby-plugin-react-helmet": "^3.1.23",
+    "gatsby-plugin-robots-txt": "^1.5.1",
     "gatsby-plugin-sass": "^2.1.30",
+    "gatsby-plugin-sitemap": "^2.4.12",
     "node-sass": "^4.13.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
@@ -16,12 +19,10 @@
     "react-images": "^1.0.0"
   },
   "keywords": [
-    "painter",
-    "slikar",
-    "oil painting",
-    "canvas",
-    "Sorica",
-    "olje na platno"
+    "homepage",
+    "gallery",
+    "netlify",
+    "gatsby"
   ],
   "license": "MIT",
   "scripts": {

@@ -145,13 +145,15 @@ const DEFAULT_IMAGES = [
 class HomeIndex extends React.Component {
   render() {
     const siteTitle = 'Miro Kačar'
-    const siteDescription = 'slikar'
+    const siteDescription = 'slikar iz Sorica'
+    const siteKeywords = 'slikar, miro kacar, sorica, slikarstvo, olje platno, likovna delavnica, galerija, atelje'
 
     return (
       <Layout>
         <Helmet>
           <title>{siteTitle}</title>
           <meta name="description" content={siteDescription} />
+          <meta name="keywords" content={siteKeywords} />
         </Helmet>
 
         <div id="main">

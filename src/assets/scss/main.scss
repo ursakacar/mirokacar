@@ -943,38 +943,13 @@
 
 /* Footer */
 
+
 	#footer {
 		.icons {
 			margin: (_size(element-margin) * 0.5) 0 0 0;
 
 			a {
 				color: _palette(accent2, fg-light);
-			}
-		}
-
-		.copyright {
-			color: _palette(accent2, fg-light);
-			font-size: 0.8em;
-			list-style: none;
-			margin: (_size(element-margin) * 0.5) 0 0 0;
-			padding: 0;
-
-			li {
-				border-left: solid 1px _palette(accent2, border);
-				display: inline-block;
-				line-height: 1em;
-				margin-left: 0.75em;
-				padding-left: 0.75em;
-
-				&:first-child {
-					border-left: 0;
-					margin-left: 0;
-					padding-left: 0;
-				}
-
-				a {
-					color: inherit;
-				}
 			}
 		}
 	}
@@ -997,6 +972,19 @@
 				margin-top: 0;
 				padding-top: 0;
 			}
+		}
+	}
+
+/* copyright section*/	
+
+	.copyright {
+		text-align: center;
+		font-size: 0.9rem;
+		li {
+			border-left-width: 0;
+			line-height: 2.25em;
+			margin-left: 0;
+			padding-right: 0.5rem;
 		}
 	}
 
@@ -1236,16 +1224,6 @@
 		/* Footer */
 
 			#footer {
-				.copyright {
-					li {
-						border-left-width: 0;
-						display: block;
-						line-height: 2.25em;
-						margin-left: 0;
-						padding-left: 0;
-						font-size: 0.8em;
-					}
-				}
 			}
 				.icons {
 					margin: (_size(element-margin) * 0.5) 0 0 0;
@@ -1265,6 +1243,14 @@
 				max-width: none;
 				padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
 				width: calc(100% - #{$size-header-width});
+			}
+
+		/* copyright section*/	
+
+			.copyright {
+				li {
+					display: inline-block;
+				}
 			}
 
 	}
@@ -1330,18 +1316,6 @@
 						font-size: 1.3em;
 					}
 				}
-
-				.copyright {
-					margin: 0 0 (_size(element-margin) * 0.2) 0;
-
-					li {
-						border-left-width: 1px;
-						display: inline-block;
-						line-height: 1em;
-						margin-left: 0.75em;
-						padding-left: 0.75em;
-					}
-				}
 			}
 
 		/* Main */
@@ -1350,6 +1324,15 @@
 				margin: 0;
 				padding: ($size-header-pad * 1.5) $size-header-pad;
 				width: 100%;
+			}
+
+		/* copyright section*/	
+		
+			.copyright {
+				li {
+					list-style: none;
+					display: block;
+				}
 			}
 
 	}
@@ -1509,22 +1492,6 @@
 					}
 				}
 			}
-
-		/* Footer */
-
-			#footer {
-				.copyright {
-					padding: ($size-header-pad * 3) 0 0 0;
-					li {
-						border-left-width: 0;
-						display: block;
-						line-height: 2.25em;
-						margin-left: 0;
-						padding-left: 0;
-					}
-				}
-			}
-
 	}
 
 @media screen and (max-width: 480px) {
