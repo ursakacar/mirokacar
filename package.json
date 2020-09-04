@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "mirokacar",
+  "description": "homepage for painter Miro Kacar",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "URsa Kacar",
   "dependencies": {
     "gatsby": "^2.19.32",
     "gatsby-plugin-manifest": "^2.2.44",
@@ -16,7 +16,12 @@
     "react-images": "^1.0.0"
   },
   "keywords": [
-    "gatsby"
+    "painter",
+    "slikar",
+    "oil painting",
+    "canvas",
+    "Sorica",
+    "olje na platno"
   ],
   "license": "MIT",
   "scripts": {
@@ -30,6 +35,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/ursakacar/mirokacar"
   }
 }
