@@ -146,7 +146,8 @@ class HomeIndex extends React.Component {
   render() {
     const siteTitle = 'Miro Kačar'
     const siteDescription = 'slikar iz Sorica'
-    const siteKeywords = 'slikar, miro kacar, sorica, slikarstvo, olje platno, likovna delavnica, galerija, atelje'
+    const siteKeywords =
+      'slikar, miro kacar, sorica, slikarstvo, olje platno, likovna delavnica, galerija, atelje'
 
     return (
       <Layout>
@@ -268,7 +269,8 @@ class HomeIndex extends React.Component {
               najboljših del.
             </p>
             <p>
-              Kontaktirate me lahko preko telefona, emaila, ali pa mi preko spodnjega obrazca pustite sporočilo.
+              Kontaktirate me lahko preko telefona, emaila, ali pa mi preko
+              spodnjega obrazca pustite sporočilo.
             </p>
             <div className="row">
               <div className="8u 12u$(small)">
