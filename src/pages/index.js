@@ -353,12 +353,6 @@ class HomeIndex extends React.Component {
           <section id="five">
             <ul className="copyright">
               <li>&copy; Miro Kacar 2020</li>
-              <li>
-                Naredila: <a href="https://github.com/ursakacar">Ursa Kacar</a>
-              </li>
-              <li>
-                Dizajn: <a href="http://html5up.net">HTML5 UP</a>
-              </li>
             </ul>
           </section>
         </div>

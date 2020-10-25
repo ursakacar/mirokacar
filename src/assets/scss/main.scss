@@ -870,7 +870,7 @@ input[type='button'],
 
   .image.avatar {
     margin: 0 0 (_size(element-margin) * 0.5) 0;
-    width: 14em;
+    width: 13em;
   }
 }
 
@@ -1117,7 +1117,7 @@ body.is-touch {
   }
   .icons {
     li {
-      font-size: 1.4em;
+      font-size: 1.1em;
     }
   }
 }
@@ -1261,7 +1261,7 @@ body.is-touch {
         color: _palette(accent2, fg-light);
       }
       li {
-		font-size: 1em;
+        font-size: 1em;
       }
     }
   }
@@ -1348,11 +1348,10 @@ body.is-touch {
   /* Footer */
 
   #footer {
-    padding: 5rem $size-header-pad ($size-header-pad * 0.1)
-      $size-header-pad;
+    padding: 5rem $size-header-pad ($size-header-pad * 0.1) $size-header-pad;
     .icons {
       li {
-		font-size: 1em;
+        font-size: 1em;
       }
     }
   }
@@ -1368,32 +1367,29 @@ body.is-touch {
       padding: ($size-header-pad * 1.5) 0 0 0;
     }
   }
-
-
 }
 
 /* XSmall */
 
 @include breakpoint(xsmall) {
+  #footer {
+    text-align: left;
+    display: inline-block;
+    ul {
+      li {
+        display: flex;
+      }
+      h3 {
+        padding-right: 2rem;
+      }
+    }
+  }
 
-	#footer {
-	text-align: left;
-	display: inline-block;
-	ul {
-		li{
-			display: flex;
-		}
-		h3 {
-			padding-right: 2rem;
-		}
-	}
-}
-
-ul {
-	&.actions {
-		li {
+  ul {
+    &.actions {
+      li {
         &:first-child {
-			padding-top: 0;
+          padding-top: 0;
         }
 
         > * {
