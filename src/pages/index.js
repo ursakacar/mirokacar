@@ -147,7 +147,7 @@ class HomeIndex extends React.Component {
     const siteTitle = 'Miro Kačar'
     const siteDescription = 'slikar iz Sorica'
     const siteKeywords =
-      'slikar, miro kacar, sorica, slikarstvo, olje platno, likovna delavnica, galerija, atelje'
+      'slikar, miro kacar, mirokacar, slikar iz sorice, sorica, slikarstvo, olje platno, likovna delavnica, galerija, atelje'
 
     return (
       <Layout>
@@ -218,7 +218,7 @@ class HomeIndex extends React.Component {
             <ul className="actions">
               <li>
                 <a href="/gallery" className="button custom-hidden">
-                  Galerija
+                  Več slik
                 </a>
               </li>
             </ul>
@@ -352,7 +352,7 @@ class HomeIndex extends React.Component {
 
           <section id="five">
             <ul className="copyright">
-              <li>&copy; Miro Kacar 2020</li>
+              <li>&copy; Miro Kacar 2021</li>
             </ul>
           </section>
         </div>
